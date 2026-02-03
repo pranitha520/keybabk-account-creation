@@ -1,0 +1,4 @@
+%dw 2.0
+
+type auto_a03e1bd7_79c0_42e2_a3cf_22be13b14c71_Input_Variables_inpPayload = Array<{  atmPin: String,   depositAmount: Number,   contact: Number,   mailID: String,   accountNumber: String,   ifscCode: String,   _?: Any}>
+

@@ -1,0 +1,23 @@
+http:
+  host: "localhost"
+  port: "8084"
+db:
+  oracle:
+    host: "localhost"
+    port: "1521"
+    user: "system"
+    password: "Sujan@123"
+    servicename: "devpdb.local"
+email:
+  config:
+    host: "smtp.gmail.com"
+    port: "587"
+    user: "adlapranitha7@gmail.com"
+    password: "udigdxdnuyyxwkbw"
+deployment:
+  region: "us-east-2"
+  workers: "1"
+  workerType: "MICRO"
+  app:
+    runtime: "4.4.0"
+  
