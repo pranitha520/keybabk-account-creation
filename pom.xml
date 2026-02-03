@@ -17,14 +17,12 @@
 		<mule.maven.plugin.version>4.3.0</mule.maven.plugin.version>
 	</properties>
 	<distributionManagement>
-        <repository>
-            <id>anypoint-exchange</id>
-            <name>Anypoint Exchange</name>
-            <url>
-                https://maven.anypoint.mulesoft.com/api/v3/organizations/${anypoint.orgId}/maven
-            </url>
-        </repository>
-    </distributionManagement>
+    <repository>
+        <id>anypoint-exchange</id>
+        <name>Anypoint Exchange</name>
+        <url>https://maven.anypoint.mulesoft.com/api/v3/organizations/${anypoint.orgId}/maven</url>
+    </repository>
+</distributionManagement>
 
 	<build>
 		<plugins>
