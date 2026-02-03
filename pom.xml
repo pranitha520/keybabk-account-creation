@@ -31,16 +31,29 @@
 				<extensions>true</extensions>
 				<configuration>
    <cloudhub2Deployment>
+    <provider>MC</provider>
+
     <uri>https://anypoint.mulesoft.com</uri>
+
     <username>${anypoint.username}</username>
     <password>${anypoint.password}</password>
+
     <environment>${env}</environment>
+
     <target>Cloudhub-US-East-1</target>
+
     <applicationName>${project.artifactId}</applicationName>
+
     <replicas>1</replicas>
     <vCores>0.1</vCores>
+
     <muleVersion>${app.runtime}</muleVersion>
+
+    <properties>
+        <mule.env>${env}</mule.env>
+    </properties>
 </cloudhub2Deployment>
+
   
 				
 					<sharedLibraries>
